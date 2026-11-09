@@ -1,0 +1,83 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(177, 223, 223);
+}
+
+.mi-boton {
+    width: 200px;  
+    height: 50px;  
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #3498db;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      outline: none;
+      box-shadow: 0px 6px 0px #2980b9;
+      transition: all 0.1s ease;
+}
+
+.mi-boton_r{
+    width: 250px;  
+    height: 100px;  
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #34db58;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      outline: none;
+      box-shadow: 0px 6px 0px #29b941;
+      transition: all 0.1s ease;
+}
+
+.mi-boton:active {
+      /* Reduce la sombra para que parezca que baja */
+      box-shadow: 0px 2px 0px #2980b9;
+      /* Mueve el botón físicamente hacia abajo la diferencia de píxeles (6px - 2px = 4px) */
+      transform: translateY(4px);
+}
+
+button {
+      width: 200px;  
+      height: 100px;  
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #3498db;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      outline: none;
+      box-shadow: 0px 6px 0px #2980b9;
+      transition: all 0.1s ease;
+}
+
+.banner {
+    color: #2980b9;
+    background-color: aquamarine;
+}
+
+.mi-boton_c{
+    width: 250px;  
+    height: 100px;  
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #3b08e4;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      outline: none;
+      box-shadow: 0px 6px 0px #29b941;
+      transition: all 0.1s ease;
+}

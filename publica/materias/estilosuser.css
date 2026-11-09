@@ -1,0 +1,48 @@
+body {
+  background-color: aquamarine;
+  color: black;
+}
+
+h1 {
+  color: beige;
+}
+
+h2 {
+  text-align: center;
+}
+
+button{
+  background-color: #4CAF50; /* Color principal del botón */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  
+  /* EFECTO 3D BASE: Sombra profunda abajo para dar relieve */
+  box-shadow: 0 6px 0 #2E7D32;
+  transition: all 0.1s ease; /* Transición rápida para que se sienta fluido */
+}
+
+/* Efecto al pasar el cursor (opcional: se eleva un poco más) */
+button:hover {
+  background-color: #5cb85c;
+  box-shadow: 0 8px 0 #2E7D32;
+  transform: translateY(-2px);
+}
+
+/* EFECTO DE CLIC (El botón se "hunde") */
+button:active {
+  transform: translateY(4px); /* Mueve el botón hacia abajo */
+  box-shadow: 0 2px 0 #2E7D32; /* Reduce la sombra simulando el impacto */
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+}
